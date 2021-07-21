@@ -1,0 +1,101 @@
+body{
+    font-family: ;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('scott-unsplash.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}   
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.mid{
+    position: absolute;
+    right: 350px;
+    top: 25px;
+    display: inline-block;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration:none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover,
+.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background: grey;
+
+}
+
+.container{
+    border: 2px solid white;
+    margin: 165px 484px;
+    padding: 5px;
+    width: 365px;
+    height: 360px;
+    border-radius: 40px;
+}
+.container h1{
+    text-align: center;
+}
+
+.form-group input{
+    font-family: ;
+    text-align: center;
+    display: block;
+    width: 290px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.container button{
+    display: block;
+    width: 28%;
+    margin: -1px auto;
+
+}
